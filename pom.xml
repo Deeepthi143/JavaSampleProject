@@ -3,6 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ztang.tt</groupId>
 	<artifactId>tt_JavaMavenWork</artifactId>
+	<packaging>war</packaging>
 	<version>1.0.0</version>
 	
 
@@ -103,5 +104,8 @@
 			<url>https://repo1.maven.org/maven2</url>
 			<releases><enabled>true</enabled></releases>
 		</repository>	
-	</repositories>	
+	</repositories>
+	<distributionManagement>
+
+</distributionManagement>
 </project>
